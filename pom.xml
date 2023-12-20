@@ -14,11 +14,12 @@
       <version>3.8.1</version>
     </dependency>
   </dependencies>
+  <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.3.2</version>
+  </plugin>
   <build>
-    <plugin>
-      <artifactId>maven-war-plugin</artifactId>
-      <version>3.3.2</version>
-    </plugin>
     <finalName>01-maven-web-app</finalName>
   </build>
 </project>
